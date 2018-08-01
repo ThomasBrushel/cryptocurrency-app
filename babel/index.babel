@@ -11,6 +11,7 @@ window.onload = function() {
       <h2 class="modal-title">Welcome to Cryptotracker<h2>
       <p class="modal-copy">On this site you can see live market updates. Comming soon are push notification on coins you want to keep track of your cryptocurrency</p>
     </div>
+`;
  setTimeout(function() {
     document.querySelector(".modal").remove();
   }, 2000);
