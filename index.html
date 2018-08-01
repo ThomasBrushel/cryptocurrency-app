@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cryptocurrency Data Application</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <head>
+<link href="https://fonts.googleapis.com/css?family=Anton|Signika:300" rel="stylesheet">
+</head>
+
+<header>
+  <div class="container max-lg">
+    <div class="col-4">
+      <div class="logo">Cyrpto <span class="tracker"> tracker</span></div>
+    </div>
+    <div class="col-50-o-sm col-8 container-end">
+      <span id="burger">
+       ☰
+      </span>
+      <nav>
+        <ul>
+          <li><a href="#results">Trending</a></li>
+          <li><a href="#news">News</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+<div class="modal"></div>
+<div class="hero">
+  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1385789/cryptocurrency-cannabis-1280x800.jpg" alt="">
+  <div class="container max-lg">
+    <div class="hero-text">
+      <h1 class="hero-title">Cryptocurrency Tracker</h1>
+      <p class="hero-headline">Live updates on cryptocurrency</p>
+      <a class="btn-main" href="#results">Treding</a>
+    </div>
+  </div>
+</div>
+
+<section class="section-bg-light-grey section-spacing-md">
+  <div class="conatainer max-lg padding-a-xsm">
+    <h1>Here's what trending right now</h1>
+    <p class="margin-bottom-md">This is just some placeholder text</p>
+  </div>
+  <div class="results" id="results"></div>
+</section>
+
+<section class="section-spacing-md bg-bg-main max-lg" id="news">
+  <h1 class="margin-bottom-md padding-a-xsm">Latest Articles</h1>
+  <div class="container max-lg">
+    <div class="articles" id="articles"></div>
+  </div>
+</section>
+
+<section class="section-spacing section-bg-light-grey signup">
+  <div class="container max-lg text-center padding-a-xsm">
+    <div class="col-12">
+      <h2>Sign up for our newsletter</h2>
+      <p>Sign up to get a currated email of crypto news just for you</p>
+      <form id="sign-up-form">
+        <input type="text" class="email-input" placeholder="johndoe@gmail.com">
+        <input type="submit" value="submit" class="submit-btn">
+      </form>
+      <p class="error-message">Please enter a valid email address</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container max-lg padding-a-xsm">
+    <div class="col-12">
+      <div class="text-center date"></div>
+    </div>
+  </div>
+</footer>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
